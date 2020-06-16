@@ -455,7 +455,7 @@ class Swiper extends Component {
         toValue: 0,
         friction: this.props.stackAnimationFriction,
         tension: this.props.stackAnimationTension,
-        useNativeDriver: true
+        useNativeDriver: false
       })
     ]).start(() => {
       this.setState({isSwipingBack: false})
